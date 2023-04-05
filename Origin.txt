@@ -1,0 +1,177 @@
+DATASET_BINARY
+#Binary datasets are visualized as filled or empty symbols, depending on the value associated with a node (0 or 1).
+#Each node can have multiple associated values, and each value will be represented by a symbol (defined in FIELD_SHAPES) with corresponding color and label (from FIELD_COLORS and FIELD_LABELS).
+#Possible values (defined under DATA below) for each node are 1 (filled shapes), 0 (empty shapes) and -1 (completely omitted).
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,label1
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#shapes for each field column; possible choices are
+#1: rectangle 
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: check mark
+FIELD_SHAPES,2,4,5,1,3
+
+#field labels
+FIELD_LABELS,Human,Sheep,Goat,Cow,Other
+
+
+
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#define colors for each individual field column (if not defined all symbols will use the main dataset color, defined in COLOR above)
+FIELD_COLORS,#808080,#808080,#808080,#808080,#808080
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_POSITION_X,100
+#LEGEND_POSITION_Y,100
+#LEGEND_HORIZONTAL,0
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+#LEGEND_SHAPE_SCALES,1,1,0.5
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#show dashed lines between leaf labels and the dataset
+#DASHED_LINES,1
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+#align symbols to the end of each leaf label (individual dataset field will not be aligned to each other)
+#ALIGN_TO_LABELS,1
+
+#symbol height factor; Default symbol height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#increase/decrease the spacing between individual levels, when there is more than one binary level defined 
+#SYMBOL_SPACING,10
+
+#display or hide the text labels above each field column
+#SHOW_LABELS,1
+
+#text label size factor
+#SIZE_FACTOR,1
+
+#text label rotation
+#LABEL_ROTATION,0
+
+#text label shift in pixels (positive or negative)
+#LABEL_SHIFT,0
+
+#An example dataset with 4 columns (circle, left triangle, right triangle and rectangle):
+#FIELD_SHAPES,2,4,5,1,3,6
+#FIELD_LABELS,Human,Sheep,Goat,Cow,Other-Animals,Ticks
+#FIELD_COLORS,#ff0000,#00ff00,#ffff00,#0000ff,#660000
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#node 9606 will have a filled circle, outline of a left triangle, nothing in the 3rd column and an rectangle outline in column 5
+C.burnettiHerault_strain,0,1,0,0,0
+MST1,1,0,0,0,0
+MST2,1,0,0,0,0
+MST3,1,0,0,0,0
+MST4,1,0,0,0,0
+MST5,1,0,0,0,0
+MST6,1,0,0,0,1
+MST7,1,0,0,0,0
+MST8,1,1,1,0,0
+MST9,1,0,0,0,0
+MST10,0,0,0,0,0
+MST11,1,0,0,0,0
+MST12,1,0,0,0,0
+MST13,1,1,1,1,0
+MST15,1,0,0,0,0
+MST16,1,0,0,1,1
+MST17,1,0,0,0,0
+MST18,1,1,1,1,0
+MST19,1,0,0,0,0
+MST20,1,0,0,1,1
+MST21,1,0,0,0,1
+MST22,0,0,0,0,1
+MST23,1,1,0,0,1
+MST24,0,0,0,1,0
+MST25,1,0,0,0,0
+MST27,0,1,0,0,0
+MST28,1,0,0,1,1
+MST29,1,0,0,0,0
+MST30,0,0,1,0,0
+MST31,1,0,0,0,0
+MST32,1,0,1,0,0
+MST33,1,1,1,0,0
+MST37,1,0,0,0,0
+MST38,1,0,0,0,0
+MST39,1,0,0,0,0
+MST40,1,0,0,0,0
+MST41,1,0,0,0,0
+MST42,1,0,0,0,0
+MST43,0,0,0,0,0
+MST44,0,0,0,0,0
+MST45,0,0,0,0,0
+MST46,1,0,0,0,0
+MST47,0,0,0,0,0
+MST48,0,0,0,0,0
+MST49,1,0,0,0,0
+MST51,1,0,0,0,0
+MST53,0,0,1,0,0
+MST54,0,0,0,0,0
+MST55,1,0,0,0,0
+MST60,0,0,0,0,0
+MST61,0,0,0,1,0
+MST62,0,1,0,0,0
+MST63,0,1,0,0,0
+MST64,0,1,0,0,0
+MST65,0,0,0,1,0
+MST66,0,0,1,0,0
+MST67,0,0,1,0,0
+MST68,0,0,1,0,0
+MST69,0,0,1,0,0
+MST70,0,0,1,0,0
+MST71,0,0,0,0,0
+MST72,0,0,0,0,0
+MST73,0,0,0,0,1
+MST75,0,0,0,0,0
+MST76,0,0,0,0,0
+MST77,0,0,0,0,0

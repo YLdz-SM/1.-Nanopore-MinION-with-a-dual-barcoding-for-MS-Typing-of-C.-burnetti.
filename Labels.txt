@@ -1,0 +1,104 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names (displayed in mouseover popups)
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                                MANDATORY SETTINGS                                             #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#           Actual data follows after the "DATA" keyword                      #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#defined a name for an internal node
+
+#change the label for leaf node 9606
+C.burnettiHerault_strain	(France)     New MST
+MST1	(France)     MST1
+MST2	(France, Russia, Kyrgyzstan)     MST2
+MST3	(France)     MST3
+MST4	(France, Spain, Portugal)     MST4
+MST5	(France, Tunisia)     MST5
+MST6	(Senegal, France)     MST6
+MST7	(France, Russia)     MST7
+MST8	(France, Switzerland, USA, Spain, Portugal)     MST8
+MST9	(France)     MST9
+MST10	(No information)     MST10
+MST11	(France, Belgium)     MST11
+MST12	(France, Switzerland, Senegal)     MST12
+MST13	(France, Spain, Portugal)     MST13
+MST14	(No information)     MST14
+MST15	(France)     MST15
+MST16	(Poland, Central Africa, Romania, France, USA, Italy, Slovakia, Japan, Germany)     MST16
+MST17	(French Guiana)     MST17
+MST18	(Poland, Romania, France, Slovakia, Spain, Greece, Italy, Germany)     MST18
+MST19	(Senegal)     MST19
+MST20	(USA, France, Spain, Germany)     MST20
+MST21	(France, Canada, USA)     MST21
+MST22	(Slovakia, France)     MST22
+MST23	(Czechoslovakia, Slovakia, Czech Republic, Russia, Kazakhstan, Mongolia, Uzbekistan)     MST23
+MST24	(Germany)     MST24
+MST25	(Sweden, Germany, Kazakhstan, Russia)     MST25
+MST26	(No information)     MST26
+MST27	(Kazakhstan)     MST27
+MST28	(Kazakhstan)     MST28
+MST29	(Italy)     MST29
+MST30	(Namibia)     MST30
+MST31	(Uzbekistan)     MST31
+MST32	(Germany, Austria, France)     MST32
+MST33	(Netherlands, France, Germany, Reunion)     MST33
+MST34	(No information)     MST34
+MST35	(No information)     MST35
+MST36	(No information)     MST36
+MST37	(France)     MST37
+MST38	(France)     MST38
+MST39	(France)     MST39
+MST40	(No information)     MST40
+MST41	(France)     MST41
+MST42	(USA, France)     MST42
+MST43	(No information)     MST43
+MST44	(No information)     MST44
+MST45	(No information)     MST45
+MST46	(France)     MST46
+MST47	(No information)     MST47
+MST48	(No information)     MST48
+MST49	(France)     MST49
+MST50	(No information)     MST50
+MST51	(Saudi Arabia)     MST51
+MST52	(No information)     MST52
+MST53	(France)     MST53
+MST54	(No information)     MST54
+MST55	(United Kingdom)     MST55
+MST56	(No information)     MST56
+MST57	(Liban)     MST57
+MST58	(Liban)     MST58
+MST59	(No information)     MST59
+MST59	(No information)     MST59
+MST60	(No information)     MST60
+MST61	(Iran)     MST61
+MST62	(Iran)     MST62
+MST63	(Iran)     MST63
+MST64	(Iran)     MST64
+MST65	(Iran)     MST65
+MST66	(Thailand)     MST66
+MST67	(Thailand)     MST67
+MST68	(Thailand)     MST68
+MST69	(Thailand)     MST69
+MST70	(Thailand)     MST70
+MST71	(No information)     MST71
+MST72	(No information)     MST72
+MST73	(Argentina)     MST73
+MST74	(Brazil)     MST74
+MST75	(No information)     MST75
+MST76	(No information)     MST76
+MST77	(No information)     MST77
