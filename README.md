@@ -7,9 +7,7 @@
 
 **[3. Data](#Key-input-and-output-files-used-in-the-present-study)**
 
-**[4. Results](#Final-Tree-Files-is-Available-as-Pre-edited-Trees)**
-
-**[5. Citing this repository](#Citation)**
+**[5. Citation](#Citation)**
 
 
 
@@ -29,16 +27,16 @@ Coxiella burnetii, also known as the causal agent of Q fever, is a zoonotic path
 7. [Chat: [Gitter](https://matrix.to/#/#Pipline:matrix.org)]
 
 
-# Key input/output files used in the present study
+# Data
 
 > MS-Sequences.fasta: Fasta Files of the Multi-spacer Sequences of C. burnetti genotype.
 > MST-02-maffted.fasta: Aligned Fasta Sequences used to generate the ML Tree.
 > MS_Profil.pdf: MS Blast Results from [Blast: [MST_Db](https://ifr48.timone.univ-mrs.fr/mst/coxiella_burnetii/)]
 > Treefeatures.txt: iqtree output file
 
-# Final Tree is Available as Pre-edited Tree [Cb_Tree: [MST_ML](https://itol.embl.de/tree/461936417751261677550856)]
+* Final Tree is Available as Pre-edited Tree [Cb_Tree: [MST_ML](https://itol.embl.de/tree/461936417751261677550856)]
 
-## Files used to annotate the tree
+** Files used to annotate the tree
 
 > Labels.txt: Sequence Names and Info.
 
@@ -48,7 +46,7 @@ Coxiella burnetii, also known as the causal agent of Q fever, is a zoonotic path
 
 
 # Citation
-If you use the above data, please cite the following paper:
+The original paper is freely downloadable from: 
 
 [Laidoudi et al., 2023: [Tracking the Source of Human Q Fever from a Southern French 2
 Village: Sentinel Animals and Environmental Reservoir](https://doi.org/10.3390/xxxxx)]
