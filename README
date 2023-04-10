@@ -15,8 +15,8 @@
 
 # Softwares
 
-1. [Sequence Demultipling: [nanoMLST](https://github.com/jade-nhri/nanoMLST)]
-2. [Adaptator Trimming: [qcat](https://github.com/nanoporetech/qcat)]
+1. [Sequence Demultipling:[nanoMLST] (https://github.com/jade-nhri/nanoMLST)]
+2. [Adaptator Trimming:[qcat](https://github.com/nanoporetech/qcat)]
 3. [Sequence Alignement: [MAFFT](https://github.com/GSLBiotech/mafft.git)]
 4. [Sequence Concatenation: [SeaView](http://doua.prabi.fr/software/seaview)] 
 5. [ML Phylogeny: [Iqtree2](https://github.com/iqtree/iqtree2.git)] 
